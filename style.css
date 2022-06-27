@@ -72,7 +72,7 @@
     transform: scale(1);
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px) {}
     header {
         background-position: center;
     }
