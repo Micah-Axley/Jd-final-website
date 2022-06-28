@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* header */
 .bg {
     /* The image used */
     background-image: url("Purple\ Logo1.jpg");
@@ -16,6 +16,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* gallery */
+title .h2 {
+    position: center;
 }
 
 .conteiner-gallery {
@@ -71,6 +76,19 @@
 .images-port:hover .hover-photo {
     transform: scale(1);
 }
+
+/* cards */
+.card {
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.card-body {
+    padding: 0;
+    margin: 10px 20px;
+}
+
 
 @media screen and (max-width:900px) {}
     header {
