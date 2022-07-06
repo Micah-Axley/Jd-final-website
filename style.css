@@ -5,9 +5,17 @@
     padding: 0;
 }
 /* header */
+header {
+    color: white;
+}
+.a .nav-link {
+    color: aliceblue;
+}
+
+/* background image */
 .bg {
     /* The image used */
-    background-image: url("Purple\ Logo1.jpg");
+    background-image: url("photos/Purple\ Logo.JPG");
   
     /* Full height */
     height: 100%;
@@ -23,7 +31,7 @@ title .h2 {
     position: center;
 }
 
-.conteiner-gallery {
+.container-gallery {
     background: rgba(0,0,0,0.5);
 }
 
@@ -36,7 +44,7 @@ title .h2 {
 }
 
 .images-port{
-    width: 24%;
+    width: 40%;
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
@@ -71,6 +79,7 @@ title .h2 {
 
 .hover-photo p{
     color: white;
+    font-size: 32px;
 }
 
 .images-port:hover .hover-photo {
